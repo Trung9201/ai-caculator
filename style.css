@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    color: #fff;
+    font-size: 18px;
+    width: 72px;
+    height: 50px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4b4b4b;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #282828;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 320px;
+    color: #fff;
+    background-color: rgb(53, 53, 52);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.screen {
+    width: 100%;
+    height: 80px;
+    background-color: #4b4b4b;
+    border-radius: 8px;
+    padding-top: 10px;
+}
+
+.screen-result,
+.screen-calculation {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 22px;
+    text-align: right;
+}
+
+.keyboard {
+    margin-top: 5px;
+    width: 100%;
+}
